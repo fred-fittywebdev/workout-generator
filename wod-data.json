@@ -1,0 +1,231 @@
+{
+	"workout_types": ["force", "hypertrophy", "endurance"],
+
+	"strength": {
+		"lower": {
+			"movements": [
+				"Back Squat",
+				"Front Squat",
+				"Deadlift",
+				"Sumo Deadlift",
+				"Box Squat"
+			],
+			"types": {
+				"force": { "sets": 5, "reps": [3, 5, 8] },
+				"hypertrophy": { "sets": 4, "reps": [8, 10, 12] },
+				"endurance": { "sets": 3, "reps": [12, 15, 20] }
+			}
+		},
+		"upper": {
+			"movements": [
+				"Bench Press",
+				"Strict Press",
+				"Pull-ups (Weighted)",
+				"Ring Dips"
+			],
+			"types": {
+				"force": { "sets": 5, "reps": [3, 5, 8] },
+				"hypertrophy": { "sets": 4, "reps": [8, 10, 12] },
+				"endurance": { "sets": 3, "reps": [12, 15, 20] }
+			}
+		},
+		"olympic": {
+			"movements": [
+				"Snatch",
+				"Clean",
+				"Jerk",
+				"Hang Snatch",
+				"Hang Clean"
+			],
+			"types": {
+				"force": { "sets": 5, "reps": [2, 3, 5] },
+				"hypertrophy": { "sets": 4, "reps": [6, 8, 10] },
+				"endurance": { "sets": 3, "reps": [10, 15, 20] }
+			}
+		}
+	},
+	"preWOD": {
+		"gym": {
+			"upper": {
+				"compound": ["Strict Press", "Barbell Rows", "Pull-ups"],
+				"accessory": ["Biceps Curls", "Triceps Dips", "Face Pulls"],
+				"core": ["Hanging Knee Raises", "AB Rollout", "Russian Twists"]
+			},
+			"lower": {
+				"compound": ["Deadlift", "Leg Press", "Bulgarian Split Squat"],
+				"accessory": ["Leg Curl", "Glute Bridge", "Calf Raises"],
+				"core": [
+					"Plank with Plate Drag",
+					"Windshield Wipers",
+					"Hollow Rocks"
+				]
+			},
+			"olympic": {
+				"compound": ["Snatch Pull", "Clean Pull", "Front Squat"],
+				"accessory": [
+					"Overhead Squat",
+					"Snatch Balance",
+					"Jerk Recovery"
+				],
+				"core": ["L-Sit Hold", "GHD Sit-ups", "Hanging L-Sit"],
+				"sets": 4,
+				"reps": [3, 5, 8]
+			}
+		},
+		"bodyweight": {
+			"upper": {
+				"compound": ["Push-ups", "Dips sur chaise", "Plank Walkouts"],
+				"accessory": [
+					"Pike Push-ups",
+					"Superman Hold",
+					"Triceps Extensions au sol"
+				],
+				"core": ["L-Sit Hold", "Sit-ups", "AB Fallouts"]
+			},
+			"lower": {
+				"compound": ["Air Squats", "Jumping Lunges", "Wall Sit"],
+				"accessory": [
+					"Step-ups sur chaise",
+					"Calf Raises",
+					"Glute Bridge"
+				],
+				"core": ["Plank", "Flutter Kicks", "Copenhagen Plank"]
+			},
+			"olympic": {
+				"compound": ["Pistol Squats", "Jump Squats", "Wall Walks"],
+				"accessory": [
+					"Handstand Hold",
+					"Box Jumps (High)",
+					"Broad Jumps"
+				],
+				"core": ["Plank to Shoulder Tap", "Toes-To-Bar", "Hollow Hold"],
+				"sets": 3,
+				"reps": [8, 12, 15]
+			}
+		},
+		"functional": {
+			"upper": {
+				"compound": ["Kettlebell Press", "Ring Rows", "DB Snatch"],
+				"accessory": [
+					"Band Pull-aparts",
+					"TRX Face Pulls",
+					"KB Floor Press"
+				],
+				"core": [
+					"Turkish Get-ups",
+					"Cable Woodchoppers",
+					"Dragon Flags"
+				]
+			},
+			"lower": {
+				"compound": [
+					"Kettlebell Goblet Squat",
+					"DB Step-ups",
+					"Sled Push"
+				],
+				"accessory": [
+					"Banded Lateral Walks",
+					"Single-leg RDL",
+					"Calf Raises"
+				],
+				"core": [
+					"GHD Sit-ups",
+					"Hanging Knee Raises",
+					"Hollow Body Hold"
+				]
+			},
+			"olympic": {
+				"compound": [
+					"Kettlebell Snatch",
+					"Sandbag Clean",
+					"DB Overhead Squat"
+				],
+				"accessory": [
+					"Box Jumps",
+					"DB Thrusters",
+					"Overhead Walking Lunges"
+				],
+				"core": [
+					"Hanging L-Sit",
+					"Windshield Wipers",
+					"Plank with Rotation"
+				],
+				"sets": 4,
+				"reps": [8, 10, 12]
+			}
+		}
+	},
+	"formats": ["AMRAP 10 min", "For Time", "EMOM 12 min", "Chipper", "Tabata"],
+	"workouts": {
+		"lower": {
+			"compound": {
+				"exercises": [
+					"Barbell Lunges",
+					"Deficit Deadlift",
+					"Barbell Good Mornings",
+					"Barbell Hip Bridge"
+				],
+				"min_reps": 5,
+				"max_reps": 12
+			},
+			"metabolic": {
+				"exercises": [
+					"Burpee",
+					"Kettlebell Swing",
+					"Sprint (30m)",
+					"Box Jumps"
+				],
+				"min_reps": 10,
+				"max_reps": 20
+			},
+			"abdominal": {
+				"exercises": [
+					"Toes-To-Bar",
+					"Hollow Rocks",
+					"Sit-ups",
+					"Russian Twists"
+				],
+				"min_reps": 15,
+				"max_reps": 30
+			}
+		},
+		"upper": {
+			"compound": {
+				"exercises": ["Dips", "Push-ups", "Push Press", "Floor Press"],
+				"min_reps": 5,
+				"max_reps": 12
+			},
+			"metabolic": {
+				"exercises": ["Rowing (200m)", "Burpees Over Bar", "DB Snatch"],
+				"min_reps": 10,
+				"max_reps": 20
+			},
+			"abdominal": {
+				"exercises": ["Toes-To-Bar", "Sit-ups", "Dragon Flags"],
+				"min_reps": 15,
+				"max_reps": 30
+			}
+		},
+		"olympic": {
+			"compound": {
+				"exercises": [
+					"Front Squat",
+					"Snatch Grip Deadlift",
+					"Back Squat"
+				],
+				"min_reps": 5,
+				"max_reps": 12
+			},
+			"metabolic": {
+				"exercises": ["Burpee Over Bar", "Rowing (200m)", "Wall Balls"],
+				"min_reps": 10,
+				"max_reps": 20
+			},
+			"abdominal": {
+				"exercises": ["Toes-To-Bar", "Hollow Rocks", "L-Sit Hang"],
+				"min_reps": 15,
+				"max_reps": 30
+			}
+		}
+	}
+}
